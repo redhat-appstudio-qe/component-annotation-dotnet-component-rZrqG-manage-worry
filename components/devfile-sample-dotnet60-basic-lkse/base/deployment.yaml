@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-lkse
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/redhat-appstudio-qe/rs-demos-wxdp-tenant/component-annotation-dotnet-component/devfile-sample-dotnet60-basic-lkse@sha256:4952d9d152968c415a6ceebba86643fa47b23443a6ea2273827b0be6c1e4366f
         imagePullPolicy: Always
         name: main
         ports:
